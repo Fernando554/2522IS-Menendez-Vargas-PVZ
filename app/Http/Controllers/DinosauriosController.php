@@ -11,9 +11,9 @@ class DinosauriosController extends Controller
     //vistas del JSON de la base de dato
     public function consultarDinosaurios(){
         //Enviar a lo dinosaurios
-        $Dinosaurios = dinosaurios::all();
+        $Dinosaurios = Dinosaurios::all();
 
         //convertir el arreglo a JSON
-     return response() ->json(["Estatus" =>"Dinosaurios_Listos","Dinosaurios" => $Dinosaurios]);
+        return response() ->json(["Estatus" =>"Dinosaurios_Listos","Dinosaurios" => $Dinosaurios]);
     }
 }
