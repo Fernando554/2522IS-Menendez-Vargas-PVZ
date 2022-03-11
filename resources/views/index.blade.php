@@ -110,7 +110,7 @@
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                            <div class="img-box ">
-                              <figure><img src="images/gyufyufyu.png" alt="img"/></figure>
+                              <figure><img src="{{$Dino_1['Imagen']}}" alt="img"/></figure>
                            </div>
                         </div>
                      </div>
