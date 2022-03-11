@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ApiController;
+use App\Http\Controllers\DinosauriosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,8 +19,11 @@ Route::get('/', [ApiController::class,'raiz'])->name('raiz');
 
 Route::get('/index', [ApiController::class, 'index'])->name('index');
 
+Route::get('/acercaDe', [ApiController::class,'acercaDe']) ->name('acercaDe');
+
 //Vistas dinosaurios
 
-Route::get('/dinosaurios', [ApiController::class,'dinosaurios'])->name('dinosaurios');
+Route::get('/dinosaurios/{id}', [ApiController::class, 'dinosaurios'])->name('dinosaurios');
 
-Route::get('/dinosaurios/{id}', [ApiController::class, 'dinosauriosInfo'])->name('dinosauriosInfo');
+Route::get('/consultarDinosaurios', [DinosauriosController::class,'consultarDinosaurios']) ->name('consultarDinosaurios');
+

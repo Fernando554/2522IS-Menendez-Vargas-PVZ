@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::dropIfExists('dinosaurios');
         
         Schema::create('dinosaurios', function (Blueprint $table) {
-            $table->id();
+            $table->id('id');
             $table->string('Nombre');
             $table->Text('Descripcion');
             $table->string('Altura');
@@ -36,6 +36,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('dinosaurios');
+        //
     }
 };
