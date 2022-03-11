@@ -140,23 +140,23 @@
             <div class="row">
                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                   <div class="plants-box">
-                     <figure><img src="images/plant1.jpg" alt="img"/></figure>
-                     <h3> Floral Vibrant</h3>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page   when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                     <figure><img src="{{$Dino_2['Imagen']}}" alt="img"/></figure>
+                     <h3>{{$Dino_2['Nombre']}}</h3>
+                     <p>{{$Dino_2['Descripcion']}}</p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                   <div class="plants-box">
-                     <figure><img src="images/plant2.jpg" alt="img"/></figure>
-                     <h3> Floral Vibrant</h3>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page   when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                     <figure><img src="{{$Dino_3['Imagen']}}" alt="img"/></figure>
+                     <h3>{{$Dino_3['Nombre']}}</h3>
+                     <p>{{$Dino_3['Descripcion']}}</p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                   <div class="plants-box">
-                     <figure><img src="images/plant3.jpg" alt="img"/></figure>
-                     <h3> Floral Vibrant</h3>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page   when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                     <figure><img src="{{$Dino_4['Imagen']}}" alt="img"/></figure>
+                     <h3>{{$Dino_4['Nombre']}}</h3>
+                     <p>{{$Dino_4['Descripcion']}}</p>
                   </div>
                </div>
             </div>

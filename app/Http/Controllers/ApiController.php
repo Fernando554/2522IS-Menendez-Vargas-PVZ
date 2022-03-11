@@ -17,9 +17,8 @@ class ApiController extends Controller
         $Dino_2 = Dinosaurios::find(rand(1, 11));
         $Dino_3 = Dinosaurios::find(rand(1, 11));
         $Dino_4 = Dinosaurios::find(rand(1, 11));
-        $Dino_5 = Dinosaurios::find(rand(1, 11));
 
-        return view('index', ['Dino_1'=>$Dino_1, 'Dino_2'=>$Dino_2, 'Dino_3'=>$Dino_3, 'Dino_4'=>$Dino_4, 'Dino_5'=>$Dino_5]);
+        return view('index', ['Dino_1'=>$Dino_1, 'Dino_2'=>$Dino_2, 'Dino_3'=>$Dino_3, 'Dino_4'=>$Dino_4]);
     }
 
     public function dinosaurios($id){
