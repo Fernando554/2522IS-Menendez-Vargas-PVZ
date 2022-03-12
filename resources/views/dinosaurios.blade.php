@@ -13,24 +13,27 @@
 
 @section('Body')
 
-<div>
-</div>
-
-<div id="dino" class="plants">
-   <div class="titlepage">
-      <h2>{{$Dino['Nombre']}}</h2>
+<section>
+   <div class="container">
+      <div class="row">
+         <div id="dino" class="plants">
+            <div class="titlepage">
+               <h2>{{$Dino['Nombre']}}</h2>
+            </div>
+            
+            <div class="plants-box">
+               <figure><img src="{{$Dino['Imagen']}}" alt="img"/></figure>
+               <p>Descripcion: {{$Dino['Descripcion']}}</p>
+               <p>Altura: {{$Dino['Altura']}}</p>
+               <p>Peso: {{$Dino['Peso']}}</p>
+               <p>Región: {{$Dino['Region']}}</p>
+               <p>Región: {{$Dino['Region']}}</p>
+               <p>Área Geológica: {{$Dino['Area_Geologica']}}</p>
+            </div>
+         </div>
+      </div>
    </div>
-   
-   <div class="plants-box">
-      <figure><img src="{{$Dino['Imagen']}}" alt="img"/></figure>
-      <span>Descripcion: {{$Dino['Descripcion']}}</span>
-      <span>Altura: {{$Dino['Altura']}}</span>
-      <span>Peso: {{$Dino['Peso']}}</span>
-      <span>Región: {{$Dino['Region']}}</span>
-      <span>Región: {{$Dino['Region']}}</span>
-      <span>Área Geológica: {{$Dino['Area_Geologica']}}</span>
-   </div>
-</div>
+</section>
 
  <!-- plant -->
  <div id="dinos" class="plants">

@@ -111,7 +111,7 @@
                      </div>
                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <div class="map_section">
-                           <figure><img src="images/map.jpg"></figure>
+                           <figure><img src="/images/map.jpg"></figure>
                         </div>
                      </div>
                   </div>
@@ -119,7 +119,7 @@
                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 paddimg-left">
                   <div class="Nursery-img">
                      <figure>
-                        <img src="images/contactimg.jpg" alt="img"/>
+                        <img src="/images/contactimg.jpg" alt="img"/>
                         <div class="text-box">
                            <h3>Best Green Nursery</h3>
                         </div>
@@ -139,7 +139,7 @@
                      <div class="footer-box">
                         <div class="headinga">
                            <h3>Address</h3>
-                           <span>Demo Store .New York  United States</span>
+                           <span>Calle Margaritas</span>
                            <p>(+71 98765348)</p>
                         </div>
                         <ul class="location_icon">
