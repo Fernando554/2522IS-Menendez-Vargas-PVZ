@@ -10,7 +10,6 @@
     <li><a href="#animal">Animales</a></li>
     <li><a href="#about">Acerca De</a> </li>
     <li><a href="#contact">Contacto</a></li>
-    <li class="last"><a href="#"><img src="images/search_icon.png" alt="icon"/></a></li>
 @endsection
 
 @section('Body')
