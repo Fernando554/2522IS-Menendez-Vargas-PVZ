@@ -12,11 +12,15 @@ class ApiController extends Controller
     }
 
     public function index(){
-        //Dino aleatorio para el index
+        //Dinos aleatorio para el index
         $Dino_1 = Dinosaurios::find(rand(1, 11));
         $Dino_2 = Dinosaurios::find(rand(1, 11));
         $Dino_3 = Dinosaurios::find(rand(1, 11));
         $Dino_4 = Dinosaurios::find(rand(1, 11));
+
+        //Animales aleatorios para el index
+        
+
 
         return view('index', ['Dino_1'=>$Dino_1, 'Dino_2'=>$Dino_2, 'Dino_3'=>$Dino_3, 'Dino_4'=>$Dino_4]);
     }

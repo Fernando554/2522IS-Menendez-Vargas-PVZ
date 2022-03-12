@@ -1,7 +1,7 @@
 @extends('template.layout')
 
 @section('Title')
-    Dinoanimales - {{$Dino['id']}}
+   Dinosaurio - {{$Dino['id']}}
 @endsection
 
 @section('Menu')
@@ -49,21 +49,21 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
              <div class="plants-box">
                 <figure><img src="{{$Dino_1['Imagen']}}" alt="img"/></figure>
-                <h3>{{$Dino_1['Nombre']}}</h3>
+                <h3><a href="{{route('dinosaurios', $Dino_1['id'])}}">{{$Dino_1['Nombre']}}</a></h3>
                 <p>{{$Dino_1['Descripcion']}}</p>
              </div>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
              <div class="plants-box">
                 <figure><img src="{{$Dino_2['Imagen']}}" alt="img"/></figure>
-                <h3>{{$Dino_2['Nombre']}}</h3>
+                <h3><a href="{{route('dinosaurios', $Dino_2['id'])}}">{{$Dino_2['Nombre']}}</a></h3>
                 <p>{{$Dino_2['Descripcion']}}</p>
              </div>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
              <div class="plants-box">
                 <figure><img src="{{$Dino_3['Imagen']}}" alt="img"/></figure>
-                <h3>{{$Dino_3['Nombre']}}</h3>
+                <h3><a href="{{route('dinosaurios', $Dino_3['id'])}}">{{$Dino_3['Nombre']}}</a></h3>
                 <p>{{$Dino_3['Descripcion']}}</p>
              </div>
           </div>
