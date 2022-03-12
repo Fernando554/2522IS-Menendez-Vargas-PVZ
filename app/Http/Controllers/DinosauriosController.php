@@ -21,7 +21,13 @@ class DinosauriosController extends Controller
         //Enviar a lo dinosaurios
         $Dinosaurio = Dinosaurios::find($id);
 
-        //convertir el arreglo a JSON
-        return response() ->json(["Estatus" =>"Dinosaurio_Listo","Dinosaurio" => $Dinosaurio]);
+        if ($Dinosaurio == null) {
+            return response() ->json(["Estatus" =>"Dinosaurio_NoEncontrado"]);
+        }
+
+        else{
+            //convertir el arreglo a JSON
+            return response() ->json(["Estatus" =>"Dinosaurio_Listo","Dinosaurio" => $Dinosaurio]);
+        } 
     }
 }
