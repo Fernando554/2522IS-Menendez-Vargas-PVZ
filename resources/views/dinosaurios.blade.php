@@ -1,7 +1,7 @@
 @extends('template.layout')
 
 @section('Title')
-    Dinoanimales - {{$Dino['Nombre']}}
+    Dinoanimales - {{$Dino['id']}}
 @endsection
 
 @section('Menu')
@@ -14,8 +14,8 @@
 @section('Body')
 
 <section>
-   <div class="container">
-         <div id="dino" class="plants">
+   <div id="dino" class="container">
+         <div class="plants">
             <div class="titlepage">
                <h2>{{$Dino['Nombre']}}</h2>
             </div>

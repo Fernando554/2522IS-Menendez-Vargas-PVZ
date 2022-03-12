@@ -64,7 +64,7 @@
                 <div class="row marginii">
                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                       <div class="carousel-caption ">
-                         <h1>Admira al <strong class="color">{{$Dino_1['Nombre']}}</strong></h1>
+                         <h1>Admira al <strong class="color"><a href="{{route('dinosaurios', $Dino_1['ID'])}}">{{$Dino_1['Nombre']}}</a></strong></h1>
                          <p>{{$Dino_1['Descripcion']}}</p>
                          <a class="btn btn-lg btn-primary" href="#about" role="button">Acerca De</a>
                          <a class="btn btn-lg btn-primary" href="#contact" role="button">Contacto</a>
@@ -104,21 +104,21 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
              <div class="plants-box">
                 <figure><img src="{{$Dino_2['Imagen']}}" alt="img"/></figure>
-                <h3>{{$Dino_2['Nombre']}}</h3>
+                <h3><a href="{{route('dinosaurios', $Dino_2['ID'])}}">{{$Dino_2['Nombre']}}</a></h3>
                 <p>{{$Dino_2['Descripcion']}}</p>
              </div>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
              <div class="plants-box">
                 <figure><img src="{{$Dino_3['Imagen']}}" alt="img"/></figure>
-                <h3>{{$Dino_3['Nombre']}}</h3>
+                <h3><a href="{{route('dinosaurios', $Dino_3['ID'])}}">{{$Dino_3['Nombre']}}</a></h3>
                 <p>{{$Dino_3['Descripcion']}}</p>
              </div>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
              <div class="plants-box">
                 <figure><img src="{{$Dino_4['Imagen']}}" alt="img"/></figure>
-                <h3>{{$Dino_4['Nombre']}}</h3>
+                <h3><a href="{{route('dinosaurios', $Dino_4['ID'])}}">{{$Dino_4['Nombre']}}</a></h3>
                 <p>{{$Dino_4['Descripcion']}}</p>
              </div>
           </div>
