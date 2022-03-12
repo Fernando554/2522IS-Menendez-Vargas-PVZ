@@ -16,16 +16,24 @@
    <div id="dino" class="container">
          <div class="plants">
             <div class="titlepage">
-               <h2>{{$Dino['Nombre']}}</h2>
+               <h2>{{$Anima['Nombre']}}</h2>
             </div>
             
             <div class="plants-box">
-               <figure><img src="{{$Dino['Imagen']}}" alt="img"/></figure>
-               <p>Descripcion: {{$Dino['Descripcion']}}</p>
-               <p>Altura: {{$Dino['Altura']}}</p>
-               <p>Peso: {{$Dino['Peso']}}</p>
-               <p>Región: {{$Dino['Region']}}</p>
-               <p>Área Geológica: {{$Dino['Area_Geologica']}}</p>
+               <figure><img src="{{$Anima['Imagen']}}" alt="img"/></figure>
+               <p>Nombre_latino: {{$Anima['Nombre_latino']}}</p>
+               <p>Tipo: {{$Anima['Tipo']}}</p>
+               <p>Tiempo_activo: {{$Anima['Tiempo_activo']}}</p>
+               <p>Longi_min: {{$Anima['Longi_min']}}</p>
+               <p>Longi_max: {{$Anima['Longi_max']}}</p>
+               <p>Peso_min: {{$Anima['Peso_min']}}</p>
+               <p>Peso_max: {{$Anima['Peso_max']}}</p>
+               <p>Esperanza_vida: {{$Anima['Esperanza_vida']}}</p>
+               <p>Habitat: {{$Anima['Habitat']}}</p>
+               <p>Dieta: {{$Anima['Dieta']}}</p>
+               <p>Rango_geo: {{$Anima['Rango_geo']}}</p>
+               <p>created_at: {{$Anima['created_at']}}</p>
+               <p>updated_at: {{$Anima['updated_at']}}</p>
             </div>
          </div>
    </div>
@@ -37,8 +45,8 @@
        <div class="row">
           <div class="col-md-12 ">
              <div class="titlepage">
-                <h2>Otros Dinosaurios</h2>
-                <span>Consulta la información de cualquier dinosaurio que desees, solo dando clic.</span>
+                <h2>Otros Animales</h2>
+                <span>Consulta la información de cualquier Animal que desees, solo dando clic.</span>
              </div>
           </div>
        </div>
@@ -47,23 +55,16 @@
        <div class="row">
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
              <div class="plants-box">
-                <figure><img src="{{$Dino_1['Imagen']}}" alt="img"/></figure>
-                <h3><a href="{{route('dinosaurios', $Dino_1['id'])}}">{{$Dino_1['Nombre']}}</a></h3>
-                <p>{{$Dino_1['Descripcion']}}</p>
+                <figure><img src="{{$Ani2['Imagen']}}" alt="img"/></figure>
+                <h3><a href="{{route('Animales', $Ani2['ID'])}}">{{$Ani2['Nombre']}}</a></h3>
+                <p>{{$Ani2['Nombre_latino']}}</p>
              </div>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
              <div class="plants-box">
-                <figure><img src="{{$Dino_2['Imagen']}}" alt="img"/></figure>
-                <h3><a href="{{route('dinosaurios', $Dino_2['id'])}}">{{$Dino_2['Nombre']}}</a></h3>
-                <p>{{$Dino_2['Descripcion']}}</p>
-             </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-             <div class="plants-box">
-                <figure><img src="{{$Dino_3['Imagen']}}" alt="img"/></figure>
-                <h3><a href="{{route('dinosaurios', $Dino_3['id'])}}">{{$Dino_3['Nombre']}}</a></h3>
-                <p>{{$Dino_3['Descripcion']}}</p>
+                <figure><img src="{{$Ani3['Imagen']}}" alt="img"/></figure>
+                <h3><a href="{{route('Animales', $Ani3['ID'])}}">{{$Ani3['Nombre']}}</a></h3>
+                <p>{{$Ani3['Nombre_latino']}}</p>
              </div>
           </div>
        </div>

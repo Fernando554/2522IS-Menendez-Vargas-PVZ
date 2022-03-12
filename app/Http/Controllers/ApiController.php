@@ -12,6 +12,9 @@ class ApiController extends Controller
     }
 
     public function index(){
+        $cliente1 = new \GuzzleHttp\Client();
+        $response = $cliente1->request('GET', 'http://animalesaurios.herokuapp.com/consultarAnimales');
+        $Animales = json_decode($response->getBody()->getContents(), true);
         //Dinos aleatorio para el index
         $Dino_1 = Dinosaurios::find(rand(1, 10));
         $Dino_2 = Dinosaurios::find(rand(1, 10));
@@ -19,10 +22,13 @@ class ApiController extends Controller
         $Dino_4 = Dinosaurios::find(rand(1, 10));
 
         //Animales aleatorios para el index
+        $Ani1 = $Animales["Animales"][rand(1, 40)];
+        $Ani2 = $Animales["Animales"][rand(1, 40)];
+        $Ani3 = $Animales["Animales"][rand(1, 40)];
 
 
 
-        return view('index', ['Dino_1'=>$Dino_1, 'Dino_2'=>$Dino_2, 'Dino_3'=>$Dino_3, 'Dino_4'=>$Dino_4]);
+        return view('index', ['Dino_1'=>$Dino_1, 'Dino_2'=>$Dino_2, 'Dino_3'=>$Dino_3, 'Dino_4'=>$Dino_4, 'index2','Ani1'=>$Ani1, 'Ani2'=>$Ani2, 'Ani3'=>$Ani3]);
     }
 
     public function dinosaurios($id){
@@ -35,16 +41,15 @@ class ApiController extends Controller
         return view('dinosaurios', ['Dino'=>$Dino, 'Dino_1'=>$Dino_1, 'Dino_2'=>$Dino_2, 'Dino_3'=>$Dino_3]);
     }
 
-    public function animales($id){
-        
-        $Dino = Dinosaurios::find($id);
-        $Dino_1 = Dinosaurios::find(rand(1 , 10));
-        $Dino_2 = Dinosaurios::find(rand(1, 10));
+    public FUNCTION animales($id){
+        $cliente1 = new \GuzzleHttp\Client();
+        $response = $cliente1->request('GET', 'http://animalesaurios.herokuapp.com/consultarAnimal/'.$id);
+        $Animales = json_decode($response->getBody()->getContents(), true);
 
-        //variable id de los animales
-        $id = $Dino['id'];
+        $Anima = $Animales["Animal"];
+        $id = $Anima['ID'];
 
-        return view('dinosaurios', ['Dino'=>$Dino, 'Dino_1'=>$Dino_1, 'Dino_2'=>$Dino_2, 'id'=>$id]);
+        return view('Animal', ['Anima'=>$Anima, 'ID'=>$id]);
     }
 
 }

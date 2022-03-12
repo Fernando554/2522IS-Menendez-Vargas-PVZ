@@ -18,7 +18,6 @@ use App\Http\Controllers\DinosauriosController;
 Route::get('/', [ApiController::class,'raiz'])->name('raiz');
 
 Route::get('/index', [ApiController::class, 'index'])->name('index');
-
 //Vistas dinosaurios
 
 Route::get('/dinosaurios/{id}', [ApiController::class, 'dinosaurios'])->name('dinosaurios');
@@ -28,4 +27,5 @@ Route::get('/consultarDinosaurio/{id}', [DinosauriosController::class,'consultar
 
 
 //Vistas animales
-Route::get('/animales/{id}', [ApiController::class, 'animales'])->name('animales');
+Route::get('/Animales/{id}', [ApiController::class, 'Animales'])->name('Animales');
+

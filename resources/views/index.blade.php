@@ -127,14 +127,14 @@
  </div>
  <!-- end plant -->
 
- <!-- plant -->
- <div id="animal" class="plants">
+  <!-- plant -->
+  <div id="dino" class="plants">
     <div class="container">
        <div class="row">
           <div class="col-md-12 ">
              <div class="titlepage">
-                <h2>Algunos de los Animales</h2>
-                <span>Consulta la información de cualquier animal que desees, solo dando clic.</span>
+                <h2>Algunos de los Dinosaurios</h2>
+                <span>Consulta la información de cualquier dinosaurio que desees, solo dando clic.</span>
              </div>
           </div>
        </div>
@@ -143,23 +143,16 @@
        <div class="row">
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
              <div class="plants-box">
-                <figure><img src="{{$Dino_2['Imagen']}}" alt="img"/></figure>
-                <h3>{{$Dino_2['Nombre']}}</h3>
-                <p>{{$Dino_2['Descripcion']}}</p>
+                <figure><img src="{{$Ani2['Imagen']}}" alt="img"/></figure>
+                <h3><a href="{{route('animales', $Ani2['ID'])}}">{{$Ani2['Nombre']}}</a></h3>
+                <p>{{$Ani2['Nombre_latino']}}</p>
              </div>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
              <div class="plants-box">
-                <figure><img src="{{$Dino_3['Imagen']}}" alt="img"/></figure>
-                <h3>{{$Dino_3['Nombre']}}</h3>
-                <p>{{$Dino_3['Descripcion']}}</p>
-             </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-             <div class="plants-box">
-                <figure><img src="{{$Dino_4['Imagen']}}" alt="img"/></figure>
-                <h3>{{$Dino_4['Nombre']}}</h3>
-                <p>{{$Dino_4['Descripcion']}}</p>
+                <figure><img src="{{$Ani3['Imagen']}}" alt="img"/></figure>
+                <h3><a href="{{route('animales', $Ani3['ID'])}}">{{$Ani3['Nombre']}}</a></h3>
+                <p>{{$Ani3['Nombre_latino']}}</p>
              </div>
           </div>
        </div>
