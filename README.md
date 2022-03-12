@@ -9,14 +9,14 @@
 
 ## Nombre de un equipo
 
-Gabriela Menéndez Gómez.
+Gabriela Menéndez Gómez. <br>
 Fernando Vargas Bautista.
 
 - http://dinoanimales.herokuapp.com/index
 
 ## Nombre del otro equipo
 
-Irving Gregorio Sebastián Ildefonso.
+Irving Gregorio Sebastián Ildefonso. <br>
 Luis Fernando Hernández García.
 
 - http://animalesaurios.herokuapp.com/index
