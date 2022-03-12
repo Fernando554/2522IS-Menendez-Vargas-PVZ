@@ -1,7 +1,7 @@
 @extends('template.layout')
 
 @section('Title')
-   Animal - {{$Dino['id']}}
+   Animal - {{$Anima['ID']}}
 @endsection
 
 @section('Menu')
@@ -47,24 +47,6 @@
              <div class="titlepage">
                 <h2>Otros Animales</h2>
                 <span>Consulta la información de cualquier Animal que desees, solo dando clic.</span>
-             </div>
-          </div>
-       </div>
-    </div>
-    <div class="container">
-       <div class="row">
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-             <div class="plants-box">
-                <figure><img src="{{$Ani2['Imagen']}}" alt="img"/></figure>
-                <h3><a href="{{route('Animales', $Ani2['ID'])}}">{{$Ani2['Nombre']}}</a></h3>
-                <p>{{$Ani2['Nombre_latino']}}</p>
-             </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-             <div class="plants-box">
-                <figure><img src="{{$Ani3['Imagen']}}" alt="img"/></figure>
-                <h3><a href="{{route('Animales', $Ani3['ID'])}}">{{$Ani3['Nombre']}}</a></h3>
-                <p>{{$Ani3['Nombre_latino']}}</p>
              </div>
           </div>
        </div>

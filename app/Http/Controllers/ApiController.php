@@ -49,7 +49,7 @@ class ApiController extends Controller
         $Anima = $Animales["Animal"];
         $id = $Anima['ID'];
 
-        return view('Animal', ['Anima'=>$Anima, 'ID'=>$id]);
+        return view('animales', ['Anima'=>$Anima, 'ID'=>$id]);
     }
 
 }

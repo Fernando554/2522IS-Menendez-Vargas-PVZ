@@ -27,5 +27,5 @@ Route::get('/consultarDinosaurio/{id}', [DinosauriosController::class,'consultar
 
 
 //Vistas animales
-Route::get('/Animales/{id}', [ApiController::class, 'Animales'])->name('Animales');
+Route::get('/animales/{id}', [ApiController::class, 'animales'])->name('animales');
 
