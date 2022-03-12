@@ -33,4 +33,16 @@ class ApiController extends Controller
         return view('dinosaurios', ['Dino'=>$Dino, 'Dino_1'=>$Dino_1, 'Dino_2'=>$Dino_2, 'id'=>$id]);
     }
 
+    public function animales($id){
+        
+        $Dino = Dinosaurios::find($id);
+        $Dino_1 = Dinosaurios::find(rand(1 , 10));
+        $Dino_2 = Dinosaurios::find(rand(1, 10));
+
+        //variable id de los animales
+        $id = $Dino['id'];
+
+        return view('dinosaurios', ['Dino'=>$Dino, 'Dino_1'=>$Dino_1, 'Dino_2'=>$Dino_2, 'id'=>$id]);
+    }
+
 }

@@ -24,4 +24,8 @@ Route::get('/index', [ApiController::class, 'index'])->name('index');
 Route::get('/dinosaurios/{id}', [ApiController::class, 'dinosaurios'])->name('dinosaurios');
 
 Route::get('/consultarDinosaurios', [DinosauriosController::class,'consultarDinosaurios']) ->name('consultarDinosaurios');
+Route::get('/consultarDinosaurio/{id}', [DinosauriosController::class,'consultarDinosaurio']) ->name('consultarDinosaurio');
 
+
+//Vistas animales
+Route::get('/animales/{id}', [ApiController::class, 'animales'])->name('animales');
