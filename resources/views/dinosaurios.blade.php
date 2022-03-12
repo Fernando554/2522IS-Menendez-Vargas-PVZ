@@ -15,7 +15,6 @@
 
 <section>
    <div class="container">
-      <div class="row">
          <div id="dino" class="plants">
             <div class="titlepage">
                <h2>{{$Dino['Nombre']}}</h2>
@@ -27,11 +26,9 @@
                <p>Altura: {{$Dino['Altura']}}</p>
                <p>Peso: {{$Dino['Peso']}}</p>
                <p>Región: {{$Dino['Region']}}</p>
-               <p>Región: {{$Dino['Region']}}</p>
                <p>Área Geológica: {{$Dino['Area_Geologica']}}</p>
             </div>
          </div>
-      </div>
    </div>
 </section>
 
