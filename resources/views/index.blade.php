@@ -27,14 +27,14 @@
                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                       <div class="carousel-caption ">
                          <h1>Bievenido a <strong class="color">Dinoanimales</strong></h1>
-                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
+                         <p>Bienvenidos paleopapus aqui encontraras la informacion mas importante de las diferentes especies de Dinosaurios. Dinoanimales espera que tu experiencia sea agradable :)</p>
                          <a class="btn btn-lg btn-primary" href="#about" role="button">About</a>
                          <a class="btn btn-lg btn-primary" href="#contact" role="button">Contact US</a>
                       </div>
                    </div>
                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                       <div class="img-box">
-                         <figure><img src="images/gyufyufyu.png" alt="img"/></figure>
+                         <figure><img src="images/dino.webp" alt="img"/></figure>
                       </div>
                    </div>
                 </div>
@@ -176,23 +176,15 @@
                 <div class="about-box">
                    <h2>50</h2>
                    <div class="white-bg">
-                      <span>Satisfaction</span> 
+                      <span>Visitantes</span> 
                    </div>
                 </div>
              </div>
              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="about-box">
-                   <h2>50</h2>
+                   <h2>9.5/10</h2>
                    <div class="white-bg">
-                      <span>Free Delivery</span> 
-                   </div>
-                </div>
-             </div>
-             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <div class="about-box">
-                   <h2>50</h2>
-                   <div class="white-bg">
-                      <span>Store Locators</span> 
+                      <span>Puntuacion de la pagina</span> 
                    </div>
                 </div>
              </div>
@@ -200,8 +192,25 @@
           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
              <div class="about-box">
                 <div class="titlepage">
-                   <h2>About US</h2>
-                   <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web pageweb page</span> 
+                   <h2>Acerca De</h2>
+                   <span>Dinoanimales es una API que puede ofrecerte toda informacion 
+para brindarte sobre los diferentes tipos de dinosaurios, su forma de 
+alimentacion hasta sus diferentes razas.
+Los dinosaurios fueron un grupo de reptiles que habitaron la 
+Tierra en la era mesozoica , desde el período triásico superior
+ hasta fines del cretácico (245 a 65 millones de años atrás).
+ Su desaparición marca el límite entre la era mesozoica y la 
+cenozoica, y el comienzo de la denominada edad de los mamíferos.
+ El término dinosaurio proviene del griego (significa "lagarto 
+terrible") y se refiere a ejemplares de lo más diversos: grandes, 
+como el brontosaurio, que pesaba cerca de 75 toneladas, y muy 
+pequeños, como el saltopus, de tan sólo 50 cm de largo.
+
+Los primeros homínidos , por su parte, aparecieron en la 
+Tierra hace relativamente poco, alrededor de 2 millones de 
+años atrás, muchísimo después de que el último de estos grandes 
+reptiles pereciera. Las imágenes de los primeros hombres junto a
+ los dinosaurios no son más que un producto de la fantasía.</span> 
                    <div class="read-more">
                       <a  href="#">Read More</a>
                    </div>

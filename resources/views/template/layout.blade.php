@@ -81,7 +81,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>Contact Us</h2>
+                     <h2>Contacto</h2>
                   </div>
                </div>
             </div>
@@ -119,9 +119,9 @@
                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 paddimg-left">
                   <div class="Nursery-img">
                      <figure>
-                        <img src="/images/contactimg.jpg" alt="img"/>
+                        <img src="/images/ojo.webp" alt="img"/>
                         <div class="text-box">
-                           <h3>Best Green Nursery</h3>
+                           <h3>Mejor API de Dinosaurios</h3>
                         </div>
                      </figure>
                   </div>
@@ -138,23 +138,21 @@
                   <div class="col-md-12 ">
                      <div class="footer-box">
                         <div class="headinga">
-                           <h3>Address</h3>
+                           <h3>Direccion</h3>
                            <span>Calle Margaritas</span>
                            <p>(+71 98765348)</p>
                         </div>
                         <ul class="location_icon">
-                           <li> <a href="#"><img src="icon/facebook.png"></a></li>
-                           <li> <a href="#"><img src="icon/Twitter.png"></a></li>
-                           <li> <a href="#"><img src="icon/linkedin.png"></a></li>
-                           <li> <a href="#"><img src="icon/instagram.png"></a></li>
+                           <li> <a href="https://www.facebook.com/CajetaChurro"><img src="icon/facebook.png"></a></li>
+                           <li> <a href="https://www.instagram.com/ultra_hype06/?hl=es-la"><img src="icon/instagram.png"></a></li>
                         </ul>
                         <div class="menu-bottom">
                            <ul class="link">
-                              <li> <a href="#">Home</a></li>
-                              <li> <a href="#">About</a></li>
-                              <li> <a href="#"> Plant</a></li>
-                              <li> <a href="#">Gallery</a></li>
-                              <li> <a href="#"> Contact us</a></li>
+                              <li> <a href="#">INICIO</a></li>
+                              <li> <a href="#">DINOSAURIOS</a></li>
+                              <li> <a href="#">ANIMALES</a></li>
+                              <li> <a href="#">ACERCA DE</a></li>
+                              <li> <a href="#">CONTACTO</a></li>
                            </ul>
                         </div>
                      </div>
@@ -163,7 +161,7 @@
             </div>
             <div class="copyright">
                <div class="container">
-                  <p>Copyright 2019 All Rights Reserved Design By  <a href="https://html.design/">Free Html Templates</a></p>
+                  <p>Copyright 2021 All Rights Reserved Design By Dinoanimales</p>
                </div>
             </div>
          </div>
